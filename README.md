@@ -9,10 +9,13 @@ Este projeto simula um sistema de gestão de contas bancárias, focado na aplica
 - **Encapsulamento**: Uso rigoroso de modificadores de acesso `private` para atributos e métodos `public` (Getters/Setters) para controle de estado.
 - **Manipulação de Listas Genéricas**: Uso de `ArrayList<Conta>` para processar diferentes tipos de objetos através de uma única referência comum.
 
-## 🛠️ Execução
+## 🛠️ Como Compilar e Executar
 
-Para rodar o projeto, compile todos os arquivos e execute a classe principal:
+Certifique-se de ter o JDK instalado. Como os ficheiros estão na raiz do projeto, compile e execute diretamente:
 
 ```bash
-javac Exercicio_1/*.java
-java Exercicio_1.Main_Contas
+# Compilar todos os ficheiros .java
+javac *.java
+
+# Executar a classe principal
+java MainContas
