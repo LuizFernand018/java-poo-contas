@@ -1,5 +1,3 @@
-package Exercicio_1;
-
 public abstract class Conta {
     private int numero;
     private double saldo;
