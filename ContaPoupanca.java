@@ -1,5 +1,3 @@
-package Exercicio_1;
-
 public class ContaPoupanca extends Conta {
     @Override
     String getTipo(){
